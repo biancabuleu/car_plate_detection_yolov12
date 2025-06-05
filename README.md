@@ -6,7 +6,7 @@ This repository contains the **label files** used for training the model in the 
 > *by Bianca Buleu, Raul Robu, and Ioan Filip (2025)*
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  
-[![YOLO Format](https://img.shields.io/badge/Format-YOLOv12-yellow.svg)](https://github.com/AlexeyAB/darknet)  
+[![YOLO Format](https://img.shields.io/badge/Format-YOLOv12-yellow.svg)]([https://github.com/AlexeyAB/darknet](https://docs.ultralytics.com/models/yolo12/))  
 [![Download Dataset](https://img.shields.io/badge/Download-Google%20Drive-green)](https://drive.google.com/drive/folders/1HxeEThUEUx3_tDeSoEhc_8g6hX2RZhIo?usp=sharing)
 
 ---
@@ -14,7 +14,7 @@ This repository contains the **label files** used for training the model in the 
 ## 📂 Description
 
 This repository contains the annotation files for training a YOLOv12-based system for **automatic license plate detection and recognition**.  
-The labels are in YOLO format and were used in conjunction with [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) for end-to-end ALPR tasks.
+The labels are in YOLO format and were used in conjunction with [PaddleOCR](https://paddlepaddle.github.io/PaddleOCR/v3.0.0/) for end-to-end ALPR tasks.
 
 > **Note:** Due to GitHub file size limits, **images are not included here**.
 
