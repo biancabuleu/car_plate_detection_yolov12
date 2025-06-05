@@ -1,4 +1,4 @@
-# 🚘 YOLOv12 License Plate Dataset Labels
+# 🚘 YOLOv12 License Plate Dataset
 
 This repository contains the **label files** used for training the model in the research paper:
 
