@@ -1,37 +1,57 @@
-# YOLOv12 License Plate Dataset Labels
+# 🚘 YOLOv12 License Plate Dataset Labels
 
 This repository contains the **label files** used for training the model in the research paper:
 
-**"A Deep Learning-Based System for Automatic License Plate Recognition Using YOLOv12 and PaddleOCR"**  
-by *Bianca Buleu, Raul Robu, and Ioan Filip*.
+> **"A Deep Learning-Based System for Automatic License Plate Recognition Using YOLOv12 and PaddleOCR"**  
+> *by Bianca Buleu, Raul Robu, and Ioan Filip (2025)*
 
-## Description
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  
+[![YOLO Format](https://img.shields.io/badge/Format-YOLOv12-yellow.svg)](https://github.com/AlexeyAB/darknet)  
+[![Download Dataset](https://img.shields.io/badge/Download-Google%20Drive-green)](https://drive.google.com/drive/folders/1HxeEThUEUx3_tDeSoEhc_8g6hX2RZhIo?usp=sharing)
 
-The labels provided in this repository correspond to images used to train a YOLOv12-based license plate recognition system. These annotations follow the YOLO format and are intended for use in automatic license plate detection tasks.
+---
 
-Due to GitHub's file size limitations, the **image dataset** itself is not included in this repository.
+## 📂 Description
 
-You can download the complete set of training images from the following link:
+This repository contains the annotation files for training a YOLOv12-based system for **automatic license plate detection and recognition**.  
+The labels are in YOLO format and were used in conjunction with [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) for end-to-end ALPR tasks.
 
-**https://drive.google.com/drive/folders/1HxeEThUEUx3_tDeSoEhc_8g6hX2RZhIo?usp=sharing** 
+> **Note:** Due to GitHub file size limits, **images are not included here**.
 
-Please make sure to place the images in the appropriate directory structure expected by your training script or framework.
+📥 You can download the **image dataset** from the link below:  
+🔗 [**Google Drive – Dataset Download**](https://drive.google.com/drive/folders/1HxeEThUEUx3_tDeSoEhc_8g6hX2RZhIo?usp=sharing)
 
-**License and Usage Restrictions**
-The dataset provided in this repository is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license**.
+Once downloaded, ensure you place the images in the appropriate directory structure expected by your YOLO training script.
 
-This means:
+---
 
-✅ You can use the dataset for academic research, educational purposes, and non-commercial scientific projects.
+## 📜 License & Usage Restrictions
 
-❌ You may not use the dataset for commercial purposes or any activity intended for profit.
+This dataset is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
 
-🔗 You must provide appropriate credit when using or referencing the dataset.
+### ✅ Allowed
+- Academic research 🧪  
+- Educational projects 🎓  
+- Non-commercial scientific work 📊  
 
-For full license details, please see the **Creative Commons CC BY-NC 4.0 license**.
+### ❌ Not Allowed
+- Commercial or profit-driven use 💰  
+- Redistribution or sale of the dataset 📦  
 
-## Citation
+You must provide **appropriate credit** when using or referencing this dataset.
 
-If you use these labels or refer to this dataset in your work, please cite the original paper:
+🔗 [View Full License Terms](https://creativecommons.org/licenses/by-nc/4.0/)
 
-> Buleu, B., Robu, R., & Filip, I. (2025). *A Deep Learning-Based System for Automatic License Plate Recognition Using YOLOv12 and PaddleOCR*.
+---
+
+## 📝 Citation
+
+If you use this dataset or refer to it in your work, please cite the following paper:
+
+```bibtex
+@article{buleu2025yolov12,
+  title={A Deep Learning-Based System for Automatic License Plate Recognition Using YOLOv12 and PaddleOCR},
+  author={Buleu, Bianca and Robu, Raul and Filip, Ioan},
+  journal={arXiv preprint arXiv:2506.xxxxx},
+  year={2025}
+}
