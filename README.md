@@ -17,6 +17,19 @@ You can download the complete set of training images from the following link:
 
 Please make sure to place the images in the appropriate directory structure expected by your training script or framework.
 
+**License and Usage Restrictions**
+The dataset provided in this repository is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license**.
+
+This means:
+
+✅ You can use the dataset for academic research, educational purposes, and non-commercial scientific projects.
+
+❌ You may not use the dataset for commercial purposes or any activity intended for profit.
+
+🔗 You must provide appropriate credit when using or referencing the dataset.
+
+For full license details, please see the **Creative Commons CC BY-NC 4.0 license**.
+
 ## Citation
 
 If you use these labels or refer to this dataset in your work, please cite the original paper:
